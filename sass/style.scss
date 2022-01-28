@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Todo{
+    background-color: #198754;
+}
+.Titulo{
+    text-align: center;
+}
+
+.section-img{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.iconos{
+    list-style: none;
+}
+
+/*Página hombre*/
+.Section-principal{
+    width: 100%;
+    height:auto;
+}
+
+.Section-principal-img{
+    width: 100%;
+    height:auto
+}
+
+.div-hombre{
+    width: 100%;
+    height: auto;
+}
+.div-hombre:hover{
+    filter: sepia(1);
+}
+.div-hombre img{
+    height: 50vh;
+    width: 25vw;
+}
+
+.main-div-hombre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*footer*/
+
+.footer-iconos{
+    display: flex;
+    flex-direction: row;
+
+}
+/*Niños*/
+.niños{
+    width: 100%;
+    height: auto;
+}
