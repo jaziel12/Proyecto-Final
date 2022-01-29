@@ -50,8 +50,8 @@
 }
 
 .div-foto img:hover {
-  -webkit-filter: sepia(1);
-          filter: sepia(1);
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
 }
 
 .div-foto p {
