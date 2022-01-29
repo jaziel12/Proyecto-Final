@@ -14,7 +14,7 @@
 }
 
 /*Index*/
-.section-img {
+.section-img a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
