@@ -59,6 +59,10 @@
   text-align: center;
 }
 
+.div-foto h4 {
+  text-align: center;
+}
+
 /*Responsive*/
 @media (max-width: 600px) {
   .main-div {
