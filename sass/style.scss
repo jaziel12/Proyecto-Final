@@ -5,60 +5,73 @@
 }
 
 .Todo{
-    background-color: #198754;
+    background-color: #eaf1ee;
 }
 .Titulo{
     text-align: center;
 }
-
+/*Index*/
 .section-img{
     display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
     height: 100%;
+    gap: 5px;
 }
 
-.iconos{
-    list-style: none;
-}
-
-/*Página hombre*/
-.Section-principal{
-    width: 100%;
-    height:auto;
-}
+/*Primera foto horizontal*/
 
 .Section-principal-img{
     width: 100%;
     height:auto
 }
 
-.div-hombre{
-    width: 100%;
-    height: auto;
-}
-.div-hombre:hover{
-    filter: sepia(1);
-}
-.div-hombre img{
-    height: 50vh;
-    width: 25vw;
-}
-
-.main-div-hombre{
+/*Afecta a todas las imagenes*/
+.main-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: 5px;
 }
+
+.div-foto img{
+    width: 100%;
+    height: 80vh;
+    }
+
+.div-foto img:hover{
+    filter: sepia(1);
+}
+
+.div-foto p{
+    color: rgba(3, 1, 8, 0.932);
+    text-align: center;
+}
+
+/*Responsive*/
+@media (max-width:600px){
+    .main-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        margin: 5px;
+    }
+}
+
+
 
 /*footer*/
 
 .footer-iconos{
     display: flex;
     flex-direction: row;
+}
 
+/*Icono de redes*/
+.iconos{
+    list-style: none;
 }
-/*Niños*/
-.niños{
-    width: 100%;
-    height: auto;
-}
+
+
+
+
