@@ -9,6 +9,10 @@
 }
 .Titulo{
     text-align: center;
+    font-family: 'Raleway', sans-serif;}
+
+.letras{
+font-family: 'Mukta', sans-serif;
 }
 /*Index*/
 .section-img a{
@@ -44,11 +48,14 @@
 }
 
 .div-foto p{
-    color: rgba(3, 1, 8, 0.932);
+    background-color: aquamarine;
+    color: rgb(3, 1, 8);
     text-align: center;
 }
 .div-foto h4{
     text-align: center;
+    font-family: 'Mukta', sans-serif;
+
 }
 
 /*Responsive*/
